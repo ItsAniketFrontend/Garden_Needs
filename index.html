@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Garden's Need — premium bulk planters and custom-branded greenery for hotels, offices and retail. Pan-India. Since 1976." />
+  <title>Garden's Need | Bulk Planters for Brands · Since 1976</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Announcement -->
+  <div class="announce">
+    <div class="container d-flex justify-content-center align-items-center gap-2">
+      <span>Bulk orders above ₹50,000 — flat <strong>15% off</strong>.</span>
+      <a href="#lead-form" class="announce__link">Claim <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="Images/logo.jpg" alt="Garden's Need" class="brand-logo" />
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav">
+          <i class="bi bi-list fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryNav">
+          <ul class="navbar-nav mx-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#solutions">Why us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Collections</a></li>
+            <li class="nav-item"><a class="nav-link" href="#industries">Industries</a></li>
+            <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          </ul>
+          <a href="#lead-form" class="btn btn-primary-green btn-sm">
+            Get a quote <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="Images/banner.jpeg" alt="Designer planters" class="hero__img" />
+      <div class="hero__scrim"></div>
+    </div>
+
+    <div class="container hero__content">
+      <div class="row">
+        <div class="col-lg-8">
+          <span class="pill" data-aos="fade-down">B2B · Since 1976</span>
+          <h1 class="display-title mt-3" data-aos="fade-up" data-aos-delay="100">
+            Planters,<br/><em class="accent">at your scale.</em>
+          </h1>
+          <p class="lead-text mt-3" data-aos="fade-up" data-aos-delay="200">
+            Custom-branded pots and greenery for hotels, offices and retail. Shipped to 19,000+ pincodes.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="#lead-form" class="btn btn-primary-green btn-lg">
+              Get a bulk quote <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+            <a href="#products" class="btn btn-link-green btn-lg">
+              See collections
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#stats" class="hero__scroll" aria-label="Scroll">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-lg-3" data-aos="fade-up">
+          <div class="stat">
+            <h3 class="stat__num" data-count="48">0</h3>
+            <p class="stat__label">Years in business</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+          <div class="stat">
+            <h3 class="stat__num" data-count="500" data-suffix="+">0</h3>
+            <p class="stat__label">Brands served</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+          <div class="stat">
+            <h3 class="stat__num" data-count="19000" data-suffix="+">0</h3>
+            <p class="stat__label">Pincodes reached</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="stat">
+            <h3 class="stat__num"><span data-count="98">0</span>%</h3>
+            <p class="stat__label">On-time delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos marquee -->
+  <section class="logos">
+    <div class="container">
+      <p class="logos__title">Trusted by</p>
+    </div>
+    <div class="logos__marquee">
+      <div class="logos__track">
+        <span>TAJ</span><span>INFOSYS</span><span>ITC</span><span>DLF</span><span>OBEROI</span><span>WIPRO</span><span>MARRIOTT</span><span>GODREJ</span><span>PHOENIX</span><span>TATA</span>
+        <span>TAJ</span><span>INFOSYS</span><span>ITC</span><span>DLF</span><span>OBEROI</span><span>WIPRO</span><span>MARRIOTT</span><span>GODREJ</span><span>PHOENIX</span><span>TATA</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="section" id="solutions">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <span class="eyebrow">Why us</span>
+        <h2 class="display-2-sm">Built for procurement,<br/><em>designed for brands.</em></h2>
+      </div>
+
+      <div class="row g-4 mt-5">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <article class="feature-card">
+            <i class="bi bi-tags feature-card__icon"></i>
+            <h4>Bulk pricing</h4>
+            <p>Slab discounts from 100 units. NET-30 for verified orgs.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+          <article class="feature-card">
+            <i class="bi bi-palette feature-card__icon"></i>
+            <h4>Custom branding</h4>
+            <p>Your logo, colours and finish. MOQ from 250 units.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+          <article class="feature-card">
+            <i class="bi bi-truck feature-card__icon"></i>
+            <h4>Pan-India delivery</h4>
+            <p>Insured logistics. White-glove install in top 30 cities.</p>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <article class="feature-card">
+            <i class="bi bi-person-workspace feature-card__icon"></i>
+            <h4>Dedicated manager</h4>
+            <p>One point of contact. Sample kits. 12-month AMC.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="section section--cream" id="products">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3" data-aos="fade-up">
+        <div class="section-head mb-0">
+          <span class="eyebrow">Collections</span>
+          <h2 class="display-2-sm mb-0">Curated ranges,<br/><em>every space.</em></h2>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="swiper-nav-btn" id="prodPrev" aria-label="Previous"><i class="bi bi-arrow-left"></i></button>
+          <button class="swiper-nav-btn" id="prodNext" aria-label="Next"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-0 mt-5" data-aos="fade-up">
+      <div class="swiper products-swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#e8ddc7,#d4c4a7);">
+                <i class="bi bi-flower1 product-card__emoji"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Ceramic</h5>
+                <p>Hand-glazed, 12 colours.</p>
+                <div class="product-card__meta">
+                  <span>MOQ 100</span><span>From ₹349</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#3d5a1a,#6b8e3a);">
+                <i class="bi bi-tree product-card__emoji" style="color:#fff;"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Heritage stone</h5>
+                <p>Lobby statement pieces.</p>
+                <div class="product-card__meta">
+                  <span>MOQ 50</span><span>From ₹1,899</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#c4a777,#a08758);">
+                <i class="bi bi-basket product-card__emoji" style="color:#fff;"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Rattan &amp; wicker</h5>
+                <p>Indoor-outdoor ready.</p>
+                <div class="product-card__meta">
+                  <span>MOQ 100</span><span>From ₹549</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#f5f0e8,#e5a93a);">
+                <i class="bi bi-flower3 product-card__emoji"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Co-branded</h5>
+                <p>Logo embossed, custom.</p>
+                <div class="product-card__meta">
+                  <span>MOQ 250</span><span>On quote</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#2d4418,#1f3012);">
+                <i class="bi bi-gem product-card__emoji" style="color:#fff;"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Fiber composite</h5>
+                <p>Light, modular, weather-proof.</p>
+                <div class="product-card__meta">
+                  <span>MOQ 100</span><span>From ₹799</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="product-card">
+              <div class="product-card__img" style="background:linear-gradient(135deg,#d4c4a7,#8fb339);">
+                <i class="bi bi-flower2 product-card__emoji"></i>
+              </div>
+              <div class="product-card__body">
+                <h5>Vertical gardens</h5>
+                <p>Plug-and-play green walls.</p>
+                <div class="product-card__meta">
+                  <span>25 sqft</span><span>From ₹4,999</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section class="section" id="industries">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <span class="eyebrow">Industries</span>
+        <h2 class="display-2-sm">Greenery, <em>for every business.</em></h2>
+      </div>
+
+      <div class="row g-4 mt-5">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-building icon"></i>
+            <h4>Hotels</h4>
+            <p>Lobby statements. Suite accents.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-briefcase icon"></i>
+            <h4>Offices</h4>
+            <p>Biophilic spaces. WELL-ready.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-bag-heart icon"></i>
+            <h4>Retail</h4>
+            <p>Seasonal installs at scale.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="240">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-cup-hot icon"></i>
+            <h4>Cafés</h4>
+            <p>Photogenic. Low-maintenance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="320">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-houses icon"></i>
+            <h4>Landscapers</h4>
+            <p>Phased delivery to spec.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="industry-tile" style="--tile-accent:#3d5a1a;">
+            <i class="bi bi-mortarboard icon"></i>
+            <h4>Institutions</h4>
+            <p>GEM-enlisted. Tender-ready.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section section--cream" id="process">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <span class="eyebrow">Process</span>
+        <h2 class="display-2-sm">Four steps. <em>No friction.</em></h2>
+      </div>
+
+      <div class="row g-4 mt-5">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up">
+          <div class="process-step">
+            <div class="process-step__num">01</div>
+            <h5>Brief</h5>
+            <p>Share your specs.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+          <div class="process-step">
+            <div class="process-step__num">02</div>
+            <h5>Quote</h5>
+            <p>Proposal in 24 hours.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+          <div class="process-step">
+            <div class="process-step__num">03</div>
+            <h5>Produce</h5>
+            <p>QC'd to your spec.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="process-step">
+            <div class="process-step__num">04</div>
+            <h5>Install</h5>
+            <p>Delivered &amp; placed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <span class="eyebrow">Clients</span>
+        <h2 class="display-2-sm">What they <em>actually say.</em></h2>
+      </div>
+
+      <div class="swiper testimonials-swiper mt-5" data-aos="fade-up">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <p>"One PO replaced three vendors. 22% saved."</p>
+              <div class="testimonial-card__author">
+                <div class="avatar">AM</div>
+                <div>
+                  <strong>Anjali Mehta</strong>
+                  <span>Procurement · Hotel Group</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <p>"On brief, on brand, on time. Every time."</p>
+              <div class="testimonial-card__author">
+                <div class="avatar">RS</div>
+                <div>
+                  <strong>Rohit Sharma</strong>
+                  <span>Facilities · Tech MNC</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <p>"Tender to install, handled end-to-end."</p>
+              <div class="testimonial-card__author">
+                <div class="avatar">SK</div>
+                <div>
+                  <strong>Sneha Kapoor</strong>
+                  <span>Landscape Architect · PMC</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <p>"Runs 8 properties on autopilot."</p>
+              <div class="testimonial-card__author">
+                <div class="avatar">VR</div>
+                <div>
+                  <strong>Vikram Rao</strong>
+                  <span>Asset Manager · Retail REIT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <p>"Replaced plants before we even asked."</p>
+              <div class="testimonial-card__author">
+                <div class="avatar">PJ</div>
+                <div>
+                  <strong>Priya Joshi</strong>
+                  <span>Design Lead · SaaS Co.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination mt-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Form -->
+  <section class="section lead-section" id="lead-form">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5" data-aos="fade-right">
+          <span class="eyebrow eyebrow--light">Free quote</span>
+          <h2 class="display-2-sm text-white">Tell us what you need.<br/><em class="text-amber">We'll do the rest.</em></h2>
+          <p class="text-white-70 mt-3">Share a few details. Get slab pricing, samples and a mood board in under 24 hours.</p>
+
+          <ul class="lead-benefits mt-4">
+            <li><i class="bi bi-check2"></i> No-obligation quote</li>
+            <li><i class="bi bi-check2"></i> Dedicated account manager</li>
+            <li><i class="bi bi-check2"></i> NET-30 terms available</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-left">
+          <form class="lead-form-card" id="leadForm" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="email" class="form-label">Work email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="jane@company.com" required />
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 98XXXXXXXX" required />
+              </div>
+
+              <div class="col-md-6">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" class="form-control" id="company" name="company" placeholder="Acme Pvt. Ltd." />
+              </div>
+              <div class="col-md-6">
+                <label for="qty" class="form-label">Quantity</label>
+                <select class="form-select" id="qty" name="qty">
+                  <option value="">Select range</option>
+                  <option>100 – 499</option>
+                  <option>500 – 999</option>
+                  <option>1,000 – 4,999</option>
+                  <option>5,000+</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label">Project notes</label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Spaces, timeline, branding…"></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary-green btn-lg w-100 mt-4">
+              Send request <i class="bi bi-arrow-right ms-1"></i>
+            </button>
+            <p class="text-muted small text-center mt-3 mb-0">
+              We reply within one business day.
+            </p>
+
+            <div class="lead-success" id="leadSuccess" hidden>
+              <i class="bi bi-check-circle-fill"></i>
+              Got it. We'll be in touch shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="display-2-sm">Before you ask.</h2>
+          <p class="mt-3">Can't find it here? <a href="#lead-form" class="link-green">Ask our team →</a></p>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="accordion accordion-flush faq-accordion" id="faqAcc">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q1">
+                  What's the minimum order?
+                </button>
+              </h2>
+              <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                <div class="accordion-body">100 units for catalogue. 250 units for custom branding.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">
+                  Do you install and maintain?
+                </button>
+              </h2>
+              <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                <div class="accordion-body">Yes. White-glove install in top cities, plus 12-month AMC options.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">
+                  Can you match our brand?
+                </button>
+              </h2>
+              <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                <div class="accordion-body">Pantone matching, custom finishes, logo emboss. Sample sign-off before production.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q4">
+                  Payment terms?
+                </button>
+              </h2>
+              <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                <div class="accordion-body">30% advance on first order. NET-30 for verified enterprises.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q5">
+                  How fast is a sample kit?
+                </button>
+              </h2>
+              <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                <div class="accordion-body">Ships in 48 hours. Delivered in 3–5 days.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container" data-aos="fade-up">
+      <div class="final-cta__card">
+        <h2 class="display-1-sm text-white">Let's plant<br/><em class="text-amber">something lasting.</em></h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+          <a href="#lead-form" class="btn btn-amber btn-lg">Start your brief <i class="bi bi-arrow-right ms-1"></i></a>
+          <a href="tel:+919999999999" class="btn btn-outline-light btn-lg">+91 99999 99999</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5 py-5">
+        <div class="col-lg-5">
+          <img src="Images/logo.jpg" alt="Garden's Need" class="footer-logo" />
+          <p class="mt-3">Growing purposefully since 1976.</p>
+          <div class="socials mt-3">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h6>Explore</h6>
+          <a href="#solutions">Why us</a>
+          <a href="#products">Collections</a>
+          <a href="#industries">Industries</a>
+          <a href="#process">Process</a>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h6>Contact</h6>
+          <a href="tel:+919999999999">+91 99999 99999</a>
+          <a href="mailto:sales@gardensneed.com">sales@gardensneed.com</a>
+          <a href="#">Mon – Sat · 10am – 7pm</a>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <div class="d-flex flex-wrap justify-content-between gap-2">
+          <span>© <span id="year"></span> Garden's Need</span>
+          <span>Made in India</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTAs -->
+  <a href="https://wa.me/919999999999" class="float-cta float-cta--wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span>Chat</span>
+  </a>
+
+  <a href="#lead-form" class="float-cta float-cta--quote" id="floatQuote">
+    <i class="bi bi-arrow-right"></i>
+    <span>Get a quote</span>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
