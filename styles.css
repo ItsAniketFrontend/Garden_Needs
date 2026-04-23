@@ -376,7 +376,7 @@ p { color: var(--ink-700); }
 
 /* ---------------- Stats ---------------- */
 .stats {
-  padding: 80px 0;
+  padding: 36px 0;
   border-bottom: 1px solid var(--cream-200);
 }
 .stat__num {
@@ -397,7 +397,7 @@ p { color: var(--ink-700); }
 
 /* ---------------- Logos marquee ---------------- */
 .logos {
-  padding: 70px 0 60px;
+  padding: 32px 0 28px;
   background: transparent;
 }
 .logos__title {
@@ -437,16 +437,16 @@ p { color: var(--ink-700); }
 
 /* ---------------- Sections ---------------- */
 .section {
-  padding: 70px 0;
+  padding: 44px 0;
   position: relative;
 }
 .section--cream { background: #fff; }
 
 .section-head {
   max-width: 760px;
-  margin: 0 0 40px;
+  margin: 0 0 18px;
 }
-.section-head p { font-size: 1.05rem; margin-top: 14px; }
+.section-head p { font-size: 1.05rem; margin-top: 10px; }
 
 .swiper-nav-btn {
   width: 46px; height: 46px;
@@ -753,7 +753,7 @@ p { color: var(--ink-700); }
 .casestudy__author span { color: rgba(255,255,255,0.7); font-size: 0.84rem; }
 
 /* ---------------- Testimonials ---------------- */
-.testimonials-swiper { padding-bottom: 60px; }
+.testimonials-swiper { padding-bottom: 40px; }
 .testimonial-card {
   padding: 30px 0;
   height: 100%;
